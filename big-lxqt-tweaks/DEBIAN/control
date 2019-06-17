@@ -4,7 +4,7 @@ Architecture: all
 Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 Section: admin
 Priority: optional
-Installed-Size:3876
+Installed-Size:6176
 Description: Improvements to lxqt
 
 
