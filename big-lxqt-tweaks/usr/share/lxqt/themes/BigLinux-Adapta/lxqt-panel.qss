@@ -3,14 +3,15 @@
  */
 
 LXQtPanel #BackgroundWidget {
-    background:rgba(0, 0, 0, 50%);
+    background:rgba(0, 0, 0, 60%);
 }
 QToolTip {
     border: 1px solid hsv(41, 53, 59);
-    background:hsv(41, 53, 59);
-    padding: 2px;
-    margin: 0px;
-    color: #EEEEEE
+    background:rgba(0, 0, 0, 50%);
+    padding: 15px;
+    color: #EEEEEE;
+    font-weight: 900;
+
 }
 
 /*
@@ -162,19 +163,19 @@ VolumePopup  > QSlider::sub-page:vertical {
 #TaskBar QToolButton{
     margin: 0px;
     padding: 0px;
-
+    font-weight: 500;
 }
 
 #TaskBar QToolButton:on {
     border-top: 4px solid rgb(180, 180, 180);
-        padding-top: -4px;
-            margin-top: 2px;
+        padding-top: 2px;
+            margin-top: 1px;
 }
 
 #TaskBar QToolButton:on:hover {
     border-top: 4px solid rgb(180, 180, 180);
-        padding-top: -4px;
-            margin-top: 2px;
+        padding-top: 2px;
+            margin-top: 1px;
 }
 
 #TaskBar QToolButton:hover {
@@ -300,9 +301,9 @@ QMenu {
     border: 1px solid rgba(50, 50, 50, 80%);
     border-bottom-color: rgba(0, 0, 0, 80%);
     border-right-color: rgba(0, 0, 0, 80%);
-    background: rgba(41, 53, 59, 80%);
+    background: rgba(41, 53, 59, 88%);
     /*qproperty-icon: url(mainmenu.svg);*/
-    color: #EEEEEE;
+    color: #EEEEEE;    
 }
 
 QMenu::icon {
@@ -330,6 +331,8 @@ QMenu::item {
     padding: 6px 40px 6px 22px;
     background: transparent;
     color: #EEEEEE;
+    font-weight: 500;
+    font-size: 11pt;
 }
 
 QMenu::item:selected {
@@ -377,6 +380,7 @@ QMenu::indicator:non-exclusive:checked {
     border: none;
     qproperty-icon: url(icon.png);
     color: #EEEEEE;
+    font-weight: 500;
 }
 
 
@@ -390,6 +394,9 @@ QMenu::indicator:non-exclusive:checked {
     margin-right: 2px;
     margin-left: 2px;
     color: #eeeeee;
+    font-weight: 500;
+
+    
 }
 
 
@@ -397,17 +404,23 @@ QMenu::indicator:non-exclusive:checked {
     border: none;
     background-color: rgb(56, 60, 74);
     color: #eeeeee;
+        font-weight: 500;
+
 }
 
 #MainMenu ActionView::item {
     border: 0px;
     padding: 3px 0;
+        font-weight: 500;
+
 }
 
 #MainMenu ActionView::item:selected, ActionView::item:hover {
     border: 1px solid #5294e2;
     background: #5294e2;
     color: rgb(255, 255, 255);
+    font-weight: 500;
+
 }
 
 
@@ -514,6 +527,8 @@ QMenu::indicator:non-exclusive:checked {
     margin-right: 2px;
     margin-left: 2px;
     padding: 2px;
+    font-weight: 900;
+    font-size: 14pt;
     color: #EEEEEE;
     background: transparent;
 }
