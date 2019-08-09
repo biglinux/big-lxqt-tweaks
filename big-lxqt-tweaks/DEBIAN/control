@@ -1,10 +1,10 @@
 Package: big-lxqt-tweaks
-Version: 1.0.0-1big3
+Version: 1.0.0-1big6
 Architecture: all
 Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 Section: admin
 Priority: optional
-Installed-Size:3876
+Installed-Size:3880
 Description: Improvements to lxqt
 
 

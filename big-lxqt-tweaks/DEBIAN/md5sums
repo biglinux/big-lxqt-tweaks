@@ -1,9 +1,10 @@
-623c5bdb873336ae9435a36fe66fdc6d  DEBIAN/dpkg-divert
-e6af6d4a13786180bfe6f06bd7edfd33  DEBIAN/preinst
-d244dc569550faeb2b4005f61776d916  DEBIAN/postrm
+34dfbdb69ed99b82a4a7a985d31f489a  DEBIAN/dpkg-divert
+5c537ff87b0289e6194ccbe21ba79ba0  DEBIAN/preinst
+2c4a44d2c46f4413d64754c26e6bb7c6  DEBIAN/postrm
 d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-cf7753e78716594447495438ca30d966  DEBIAN/control
+028785dfaf828531bf3de060c196e898  DEBIAN/control
 6d557dbacaacc7d85896a50f03c5c8e7  etc/xdg/menus/lxqt-applications.menu
+67ad64977c28b0a5d9d42ac62769b522  etc/xdg/autostart/lxqt-klipper.desktop
 cd853ddb6f89b94389e782f0407ab28f  usr/share/lxqt/themes/kde-plasma/lxqt-panel.qss
 058d8fca9905d9698984358a310fdcfc  usr/share/lxqt/themes/BigLinux-Adapta/calendar-popup/left-arrow.svg
 ebe395a37e99272e049718f39d3f7e8f  usr/share/lxqt/themes/BigLinux-Adapta/calendar-popup/right-arrow.svg
@@ -21,7 +22,6 @@ e76d92f75389005f1e16748708b1225e  usr/share/lxqt/themes/BigLinux-Adapta/checked.
 e6907632957526e3aa28c642895febd5  usr/share/lxqt/themes/BigLinux-Adapta/lxqt-runner.qss
 f31ab190ac493c5a03dc44dbec6a1780  usr/share/lxqt/themes/BigLinux-Adapta/unchecked.svg
 a9ec15451bc433ce6f4b4564fe102ac4  usr/share/lxqt/themes/BigLinux-Adapta/lxqt-notificationd.qss
-bfe63184ebe6256dcf1ae13b4dc2f22c  usr/share/applications/lxqt_kcm_printer_manager.desktop
 e527463c5719bed22093dae8ee45fe7a  usr/share/desktop-directories/lxqt-settings.directory
 ea45c8420e9021846cce7905072a0d22  usr/share/desktop-directories/lxde-utility.directory
 c8e950c4bfb61de09aae9d0ea6942a1b  usr/share/desktop-directories/lxde-settings.directory
@@ -62,6 +62,7 @@ bde5c6d51f77481f1d06a587e5e7f236  usr/share/icons/breeze-dark-lxqt/actions/22/sy
 45c823fb205e2e074215d14d7ee6c27d  usr/share/icons/breeze-dark-lxqt/actions/22/system-switch-user.svg
 8506690a3d0cc839a1f364cce9cd5a7c  usr/share/icons/breeze-dark-lxqt/actions/22/system-upgrade.svg
 7d181bff743e82caf8268acba9b3c0a5  usr/share/icons/breeze-dark-lxqt/actions/22/user-group-new.svg
+be5eb2d219c0d60d6495dcdf0162e1fc  usr/share/icons/breeze-dark-lxqt/actions/22/plugins.svg
 899781e8d3cf04ef163cf55720b0d789  usr/share/icons/breeze-dark-lxqt/actions/32/system-lock-screen.svg
 e12a9e05b782ad60168ee4b30a2ed243  usr/share/icons/breeze-dark-lxqt/actions/32/system-log-out.svg
 9f3279e0df1750f9cbc7caa70175464d  usr/share/icons/breeze-dark-lxqt/actions/32/system-reboot.svg

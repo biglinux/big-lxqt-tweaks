@@ -2,4 +2,5 @@
 /usr/share/desktop-directories/lxde-settings.directory
 /usr/share/desktop-directories/lxde-utility.directory
 /usr/share/desktop-directories/lxqt-settings.directory
+/usr/share/applications/lxqt-leave.desktop
 /etc/xdg/menus/lxqt-applications.menu

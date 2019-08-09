@@ -8,6 +8,7 @@ case "$1" in
     dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/usrsharedesktop-directorieslxde-settings.directory" --rename "/usr/share/desktop-directories/lxde-settings.directory"
     dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/usrsharedesktop-directorieslxde-utility.directory" --rename "/usr/share/desktop-directories/lxde-utility.directory"
     dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/usrsharedesktop-directorieslxqt-settings.directory" --rename "/usr/share/desktop-directories/lxqt-settings.directory"
+    dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/usrshareapplicationslxqt-leave.desktop" --rename "/usr/share/applications/lxqt-leave.desktop"
     dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/etcxdgmenuslxqt-applications.menu" --rename "/etc/xdg/menus/lxqt-applications.menu"
     ;;
   upgrade)
@@ -26,6 +27,10 @@ fi
 if [ "$(dpkg-divert --list "/usr/share/desktop-directories/lxqt-settings.directory")" = "" ]
 then
     dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/usrsharedesktop-directorieslxqt-settings.directory" --rename "/usr/share/desktop-directories/lxqt-settings.directory"
+fi
+if [ "$(dpkg-divert --list "/usr/share/applications/lxqt-leave.desktop")" = "" ]
+then
+    dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/usrshareapplicationslxqt-leave.desktop" --rename "/usr/share/applications/lxqt-leave.desktop"
 fi
 if [ "$(dpkg-divert --list "/etc/xdg/menus/lxqt-applications.menu")" = "" ]
 then
