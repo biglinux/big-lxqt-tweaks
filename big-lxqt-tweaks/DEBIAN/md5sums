@@ -2,7 +2,7 @@
 5c537ff87b0289e6194ccbe21ba79ba0  DEBIAN/preinst
 2c4a44d2c46f4413d64754c26e6bb7c6  DEBIAN/postrm
 d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-72ab1026b457ef723fd02f426c5404dc  DEBIAN/control
+231678756f1c586e40465cc907486c6a  DEBIAN/control
 6d557dbacaacc7d85896a50f03c5c8e7  etc/xdg/menus/lxqt-applications.menu
 67ad64977c28b0a5d9d42ac62769b522  etc/xdg/autostart/lxqt-klipper.desktop
 cd853ddb6f89b94389e782f0407ab28f  usr/share/lxqt/themes/kde-plasma/lxqt-panel.qss
