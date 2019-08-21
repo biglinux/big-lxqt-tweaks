@@ -10,6 +10,7 @@ case "$1" in
     dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/usrsharedesktop-directorieslxqt-settings.directory" --rename "/usr/share/desktop-directories/lxqt-settings.directory"
     dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/usrshareapplicationslxqt-leave.desktop" --rename "/usr/share/applications/lxqt-leave.desktop"
     dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/etcxdgmenuslxqt-applications.menu" --rename "/etc/xdg/menus/lxqt-applications.menu"
+    dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/usrbincompton" --rename "/usr/bin/compton"
     ;;
   upgrade)
 if [ "$(dpkg-divert --list "/usr/share/lxqt/themes/kde-plasma/lxqt-panel.qss")" = "" ]
@@ -35,6 +36,10 @@ fi
 if [ "$(dpkg-divert --list "/etc/xdg/menus/lxqt-applications.menu")" = "" ]
 then
     dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/etcxdgmenuslxqt-applications.menu" --rename "/etc/xdg/menus/lxqt-applications.menu"
+fi
+if [ "$(dpkg-divert --list "/usr/bin/compton")" = "" ]
+then
+    dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/big-lxqt-tweaks/usrbincompton" --rename "/usr/bin/compton"
 fi
 ;;
 esac

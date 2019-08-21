@@ -4,3 +4,4 @@
 /usr/share/desktop-directories/lxqt-settings.directory
 /usr/share/applications/lxqt-leave.desktop
 /etc/xdg/menus/lxqt-applications.menu
+/usr/bin/compton

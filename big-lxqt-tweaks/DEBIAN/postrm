@@ -9,6 +9,7 @@ case "$1" in
     dpkg-divert --package "$package_name" --rename --remove "/usr/share/desktop-directories/lxqt-settings.directory"
     dpkg-divert --package "$package_name" --rename --remove "/usr/share/applications/lxqt-leave.desktop"
     dpkg-divert --package "$package_name" --rename --remove "/etc/xdg/menus/lxqt-applications.menu"
+    dpkg-divert --package "$package_name" --rename --remove "/usr/bin/compton"
     ;;
   purge)
     dpkg-divert --package "$package_name" --rename --remove "/usr/share/lxqt/themes/kde-plasma/lxqt-panel.qss"
@@ -17,6 +18,7 @@ case "$1" in
     dpkg-divert --package "$package_name" --rename --remove "/usr/share/desktop-directories/lxqt-settings.directory"
     dpkg-divert --package "$package_name" --rename --remove "/usr/share/applications/lxqt-leave.desktop"
     dpkg-divert --package "$package_name" --rename --remove "/etc/xdg/menus/lxqt-applications.menu"
+    dpkg-divert --package "$package_name" --rename --remove "/usr/bin/compton"
 ;;
 esac
 exit 0

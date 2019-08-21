@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ "$DESKTOP_SESSION" = "plasma" ]; then
+    exit
+fi
+
+
+exec /usr/share/dpkgdivert/big-lxqt-tweaks/usrbincompton ${1+"$@"}
