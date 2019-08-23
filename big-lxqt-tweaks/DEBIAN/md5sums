@@ -1,8 +1,9 @@
-34dfbdb69ed99b82a4a7a985d31f489a  DEBIAN/dpkg-divert
-5c537ff87b0289e6194ccbe21ba79ba0  DEBIAN/preinst
-2c4a44d2c46f4413d64754c26e6bb7c6  DEBIAN/postrm
+83742d38aa5a0b58856d7e44d9365e65  DEBIAN/dpkg-divert
+1c50f4245c0920e6fad58ba1a4aeb1cb  DEBIAN/preinst
+c198a1eb62c39d586527287b4b8c6f43  DEBIAN/postrm
 d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-4d0a2dcbe8944c2df80e552a549ba09a  DEBIAN/control
+4edec0c5a7f36ef8cb6def0193915f0f  DEBIAN/languages
+1cfcd3374e81670fd24fa9bc24175f1e  DEBIAN/control
 6d557dbacaacc7d85896a50f03c5c8e7  etc/xdg/menus/lxqt-applications.menu
 67ad64977c28b0a5d9d42ac62769b522  etc/xdg/autostart/lxqt-klipper.desktop
 cd853ddb6f89b94389e782f0407ab28f  usr/share/lxqt/themes/kde-plasma/lxqt-panel.qss
@@ -519,3 +520,4 @@ cabe0e8f31f6f01ccf0cd1c9d5b35b93  usr/share/icons/breeze-dark-lxqt/devices/22/dr
 6020550ffe4d318ad98c87ecfe016000  usr/share/icons/breeze-darker-lxqt/preferences/32/preferences-desktop-notification-bell.svg
 4510ff4fe7b48c1c0c622b63b6de9472  usr/share/icons/breeze-darker-lxqt/preferences/32/preferences-desktop-notification.svg
 5c633f0d195918cf27d0fcdc0be25909  usr/share/icons/breeze-darker-lxqt/index.theme
+354ec9c78e51a6e305a77937cd552af2  usr/bin/compton
